@@ -14,7 +14,7 @@ st.write(
 )
 
 # ---------------- Load Dataset ----------------
-DATA_PATH = r"C:\Users\kasar\Downloads\Wholesale customers data.csv"
+DATA_PATH = r"Wholesale customers data.csv"
 
 df = pd.read_csv(DATA_PATH)
 
@@ -118,3 +118,4 @@ if run:
         "📌 Customers in the same cluster exhibit similar purchasing behaviour "
         "and can be targeted with similar business strategies."
     )
+
